@@ -44,6 +44,7 @@ project:
     - file: notebooks/02-linear-models/40-Perceptron3.ipynb
       title: Perceptron
     - file: "notebooks/04-review/Practice Problems Bank.ipynb"
+    - file: "notebooks/022-prob/ProbabilisticPerspective.ipynb"
     - file: "notebooks/06-pytorch/MLP Using Pytorch.ipynb"
     - file: notebooks/05-mlp/MLP.ipynb
 
