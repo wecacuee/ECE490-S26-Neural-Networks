@@ -43,13 +43,13 @@ project:
               title: Visualize Eigen Vectors
     - file: notebooks/02-linear-models/40-Perceptron3.ipynb
       title: Perceptron
+    - file: "notebooks/04-review/Practice Problems Bank.ipynb"
     - file: "notebooks/06-pytorch/MLP Using Pytorch.ipynb"
     - file: notebooks/05-mlp/MLP.ipynb
 
 #    - file: notebooks/021-decision-theory/2008-bertsekas-prob-Ch9-P20.md
 #    - file: notebooks/03-autograd/Autograd.ipynb
 #    - file: notebooks/03-autograd/AutogradNumpy.ipynb
-#    - file: "notebooks/04-review/Practice Problems 20240222.ipynb"
 #    - file: notebooks/04-review/Midterm1-S24.ipynb
 #    - file: notebooks/05-mlp/DataModelsAndLearning.ipynb
 #    - file: notebooks/06-pytorch/NumpyTutorial-Pytorched.ipynb
