@@ -47,6 +47,7 @@ project:
     - file: "notebooks/022-prob/ProbabilisticPerspective.ipynb"
     - file: "notebooks/06-pytorch/MLP Using Pytorch.ipynb"
     - file: notebooks/05-mlp/MLP.ipynb
+    - file: "notebooks/08-review/Midterm 2 Review.ipynb"
 
 #    - file: notebooks/021-decision-theory/2008-bertsekas-prob-Ch9-P20.md
 #    - file: notebooks/03-autograd/Autograd.ipynb
@@ -56,7 +57,6 @@ project:
 #    - file: notebooks/06-pytorch/NumpyTutorial-Pytorched.ipynb
 #    - file: notebooks/07-cnn/CNN.ipynb
 #    - file: "notebooks/081-project/Project scope and instructions.ipynb"
-#    - file: "notebooks/08-review/Midterm 2 Review.ipynb"
 #    - file: "notebooks/09-vanishing/VanishingAndExplodingGradients.ipynb"
 extends:
   - ./sym.yml
