@@ -1,119 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest identifier="I_DO_NOT_HAVE_AN_ID_IN_THE_YAML"
-    xmlns="http://www.imsglobal.org/xsd/imsccv1p3/imscp_v1p1"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:lom="http://ltsc.ieee.org/xsd/LOM"
-    xsi:schemaLocation="http://www.imsglobal.org/xsd/imsccv1p3/imscp_v1p1 http://www.imsglobal.org/xsd/commoncartridge_manifest_v1p3.xsd http://ltsc.ieee.org/xsd/LOM http://www.imsglobal.org/xsd/imsccv1p3/LOM/cc_LOMv1p3.xsd">
-
+<manifest identifier="D2L_10054" xmlns:d2l_2p0="http://desire2learn.com/xsd/d2lcp_v2p0" xmlns:scorm_1p2="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1">
     <metadata>
-        <schema>IMS Common Cartridge</schema>
-        <schemaversion>1.3</schemaversion>
-        <lom:general>
-            <lom:title>
-                <lom:string>Neural Networks</lom:string>
-            </lom:title>
-            <lom:description>
-                <lom:string>Course on Neural Networks by Vikas Dhiman</lom:string>
-            </lom:description>
-        </lom:general>
+        <imsmd:lom>
+            <imsmd:general>
+                <imsmd:title>
+                    <imsmd:langstring xml:lang="en-US">V5 - Community Release - 08.2024</imsmd:langstring>
+                </imsmd:title>
+                <imsmd:keyword>
+                    <imsmd:langstring xml:lang="en-US">V5 - Community Release - 08.2024</imsmd:langstring>
+                </imsmd:keyword>
+                <imsmd:language>en-US</imsmd:language>
+            </imsmd:general>
+        </imsmd:lom>
     </metadata>
-
-    <organizations>
-        <organization identifier="TOC1">
-            <title>Neural Networks</title>
-            <item identifier="ITEM-intro" identifierref="RES-intro.md">
-                <title>Neural Networks</title>
-            </item>
-            <item identifier="ITEM-what-to-expect" identifierref="RES-what-to-expect.md">
-                <title>What to expect?</title>
-            </item>
-            <item identifier="ITEM-prereq-hw" identifierref="RES-prereq-hw.md">
-                <title>Pre-requisite Review</title>
-            </item>
-            <item identifier="ITEM-py-intro" identifierref="RES-py-intro.md">
-                <title>Ways to run Python</title>
-                <item identifier="ITEM-acg-slurm-jupyter" identifierref="RES-acg-slurm-jupyter.md">
-                    <title>tutorials/0000-00-06-acg-slurm-jupyter.md</title>
+    <organizations default="d2l_orgs">
+        <organization identifier="d2l_org">
+            <item identifier="73236" identifierref="RES_CONTENT_73236" d2l_2p0:id="1" description="" completion_type="2">
+                <title>Documentation</title>
+                <item identifier="73250" identifierref="RES_CONTENT_73250" d2l_2p0:id="2" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29662" description="" completion_type="2">
+                    <title>HTML Template Guide</title>
                 </item>
             </item>
-            <item identifier="ITEM-Python_1" identifierref="RES-Python_1.ipynb">
-                <title>Python_1.ipynb</title>
-                <item identifier="ITEM-Python_2" identifierref="RES-Python_2.ipynb">
-                    <title>Python_2.ipynb</title>
+            <item identifier="73237" identifierref="RES_CONTENT_73237" d2l_2p0:id="3" description="" completion_type="2">
+                <title>Elements</title>
+                <item identifier="73246" identifierref="RES_CONTENT_73246" d2l_2p0:id="4" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29659" description="" completion_type="2">
+                    <title>Typography Elements</title>
+                </item>
+                <item identifier="73247" identifierref="RES_CONTENT_73247" d2l_2p0:id="5" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29660" description="" completion_type="2">
+                    <title>Static Elements</title>
+                </item>
+                <item identifier="73248" identifierref="RES_CONTENT_73248" d2l_2p0:id="6" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29658" description="" completion_type="2">
+                    <title>Dynamic Elements: Accordions</title>
+                </item>
+                <item identifier="73251" identifierref="RES_CONTENT_73251" d2l_2p0:id="6" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29663" description="" completion_type="2">
+                    <title>Dynamic Elements: Tabs</title>
+                </item>
+                <item identifier="73249" identifierref="RES_CONTENT_73249" d2l_2p0:id="7" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29661" description="" completion_type="2">
+                    <title>Layout Elements</title>
                 </item>
             </item>
-            <item identifier="ITEM-tip-of-the-iceberg" identifierref="RES-tip-of-the-iceberg.md">
-                <title>tip-of-the-iceberg.md</title>
-            </item>
-            <item identifier="ITEM-LinearModels" identifierref="RES-LinearModels.ipynb">
-                <title>Linear Models</title>
-                <item identifier="ITEM-Python_3" identifierref="RES-Python_3.ipynb">
-                    <title>Python_3.ipynb</title>
+            <item identifier="73238" identifierref="RES_CONTENT_73238" d2l_2p0:id="8" description="" completion_type="2">
+                <title>Pages</title>
+                <item identifier="73239" identifierref="RES_CONTENT_73239" d2l_2p0:id="9" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29655" description="" completion_type="2">
+                    <title>Basic Page</title>
                 </item>
-                <item identifier="ITEM-PlaneFitProblem" identifierref="RES-PlaneFitProblem.ipynb">
-                    <title>PlaneFitProblem.ipynb</title>
+                <item identifier="73240" identifierref="RES_CONTENT_73240" d2l_2p0:id="10" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29651" description="" completion_type="2">
+                    <title>Course Introduction</title>
                 </item>
-            </item>
-            <item identifier="ITEM-ContinuousOptimization" identifierref="RES-ContinuousOptimization.ipynb">
-                <title>Continuous Optimization</title>
-                <item identifier="ITEM-Hessians" identifierref="RES-Hessians.ipynb">
-                    <title>Hessians</title>
-                    <item identifier="ITEM-VisEigenVectors" identifierref="RES-VisEigenVectors.ipynb">
-                        <title>Visualize Eigen Vectors</title>
-                    </item>
+                <item identifier="73241" identifierref="RES_CONTENT_73241" d2l_2p0:id="11" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29657" description="" completion_type="2">
+                    <title>Module Introduction Page</title>
                 </item>
-            </item>
-            <item identifier="ITEM-Perceptron" identifierref="RES-Perceptron.ipynb">
-                <title>Perceptron</title>
+                <item identifier="73242" identifierref="RES_CONTENT_73242" d2l_2p0:id="12" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29653" description="" completion_type="2">
+                    <title>Video Lecture</title>
+                </item>
+                <item identifier="73243" identifierref="RES_CONTENT_73243" d2l_2p0:id="13" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29656" description="" completion_type="2">
+                    <title>Conclusion</title>
+                </item>
+                <item identifier="73244" identifierref="RES_CONTENT_73244" d2l_2p0:id="14" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29654" description="" completion_type="2">
+                    <title>Blank Page</title>
+                </item>
+                <item identifier="73245" identifierref="RES_CONTENT_73245" d2l_2p0:id="15" d2l_2p0:resource_code="ABEFF365-93A6-48C2-9FBF-B52C6C0AE917-29652" description="" completion_type="2">
+                    <title>Image Samples</title>
+                </item>
             </item>
         </organization>
     </organizations>
-
     <resources>
-        <resource identifier="RES-intro.md" type="webcontent" href="intro.md">
-            <file href="intro.md" />
-        </resource>
-        <resource identifier="RES-what-to-expect.md" type="webcontent" href="notebooks/00-intro/what-to-expect.md">
-            <file href="notebooks/00-intro/what-to-expect.md" />
-        </resource>
-        <resource identifier="RES-prereq-hw.md" type="webcontent" href="notebooks/00-intro/0000-00-02-prereq-hw.md">
-            <file href="notebooks/00-intro/0000-00-02-prereq-hw.md" />
-        </resource>
-        <resource identifier="RES-py-intro.md" type="webcontent" href="tutorials/0000-00-04-py-intro.md">
-            <file href="tutorials/0000-00-04-py-intro.md" />
-        </resource>
-        <resource identifier="RES-acg-slurm-jupyter.md" type="webcontent" href="tutorials/0000-00-06-acg-slurm-jupyter.md">
-            <file href="tutorials/0000-00-06-acg-slurm-jupyter.md" />
-        </resource>
-        <resource identifier="RES-Python_1.ipynb" type="webcontent" href="notebooks/01-py-intro/Python_1.ipynb">
-            <file href="notebooks/01-py-intro/Python_1.ipynb" />
-        </resource>
-        <resource identifier="RES-Python_2.ipynb" type="webcontent" href="notebooks/01-py-intro/Python_2.ipynb">
-            <file href="notebooks/01-py-intro/Python_2.ipynb" />
-        </resource>
-        <resource identifier="RES-tip-of-the-iceberg.md" type="webcontent" href="tutorials/tip-of-the-iceberg.md">
-            <file href="tutorials/tip-of-the-iceberg.md" />
-        </resource>
-        <resource identifier="RES-LinearModels.ipynb" type="webcontent" href="notebooks/02-linear-models/00-LinearModels.ipynb">
-            <file href="notebooks/02-linear-models/00-LinearModels.ipynb" />
-        </resource>
-        <resource identifier="RES-Python_3.ipynb" type="webcontent" href="notebooks/02-linear-models/01-Python_3.ipynb">
-            <file href="notebooks/02-linear-models/01-Python_3.ipynb" />
-        </resource>
-        <resource identifier="RES-PlaneFitProblem.ipynb" type="webcontent" href="notebooks/02-linear-models/02-PlaneFitProblem.ipynb">
-            <file href="notebooks/02-linear-models/02-PlaneFitProblem.ipynb" />
-        </resource>
-        <resource identifier="RES-ContinuousOptimization.ipynb" type="webcontent" href="notebooks/02-linear-models/10-ContinuousOptimization.ipynb">
-            <file href="notebooks/02-linear-models/10-ContinuousOptimization.ipynb" />
-        </resource>
-        <resource identifier="RES-Hessians.ipynb" type="webcontent" href="notebooks/02-linear-models/20-Hessians.ipynb">
-            <file href="notebooks/02-linear-models/20-Hessians.ipynb" />
-        </resource>
-        <resource identifier="RES-VisEigenVectors.ipynb" type="webcontent" href="notebooks/02-linear-models/30-VisEigenVectors.ipynb">
-            <file href="notebooks/02-linear-models/30-VisEigenVectors.ipynb" />
-        </resource>
-        <resource identifier="RES-Perceptron.ipynb" type="webcontent" href="notebooks/02-linear-models/40-Perceptron3.ipynb">
-            <file href="notebooks/02-linear-models/40-Perceptron3.ipynb" />
-        </resource>
+        <resource identifier="87ead482-4a5c-47ef-9b91-b324c58c2eb4" type="webcontent" d2l_2p0:material_type="orgunitconfig" d2l_2p0:link_target="" href="orgunitconfig\orgunitconfig.xml" title="" />
+        <resource identifier="RES_CONTENT_73236" type="webcontent" d2l_2p0:material_type="contentmodule" d2l_2p0:link_target="" href="" title="" />
+        <resource identifier="RES_CONTENT_73250" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Documentation\HTML Template Guide.pdf" title="" />
+        <resource identifier="RES_CONTENT_73237" type="webcontent" d2l_2p0:material_type="contentmodule" d2l_2p0:link_target="" href="" title="" />
+        <resource identifier="RES_CONTENT_73246" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Elements\1_typography.html" title="" />
+        <resource identifier="RES_CONTENT_73247" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Elements\2_static.html" title="" />
+        <resource identifier="RES_CONTENT_73248" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Elements\3_accordions.html" title="" />
+        <resource identifier="RES_CONTENT_73251" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Elements\3a_tabs.html" title="" />
+        <resource identifier="RES_CONTENT_73249" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Elements\4_layouts.html" title="" />
+        <resource identifier="RES_CONTENT_73238" type="webcontent" d2l_2p0:material_type="contentmodule" d2l_2p0:link_target="" href="" title="" />
+        <resource identifier="RES_CONTENT_73239" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Pages\00_basic.html" title="" />
+        <resource identifier="RES_CONTENT_73240" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Pages\01_course_intro.html" title="" />
+        <resource identifier="RES_CONTENT_73241" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Pages\02_module_intro.html" title="" />
+        <resource identifier="RES_CONTENT_73242" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Pages\03_video_lecture.html" title="" />
+        <resource identifier="RES_CONTENT_73243" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Pages\04_conclusion.html" title="" />
+        <resource identifier="RES_CONTENT_73244" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Pages\05_blank_page.html" title="" />
+        <resource identifier="RES_CONTENT_73245" type="webcontent" d2l_2p0:material_type="content" d2l_2p0:link_target="" href="Pages\06_image_sample_page.html" title="" />
+        <resource identifier="res_syllabus" type="webcontent" d2l_2p0:material_type="d2lsyllabus" d2l_2p0:link_target="" href="syllabus_d2l.xml" title="" />
     </resources>
 </manifest>
