@@ -1,1 +1,1 @@
-find notebooks/ -name '*Colab.ipynb' ! \( -path '*.ipynb_checkpoints*' \) -exec jupyter nbconvert \{} --to html --output-dir build-html/ \;
+find notebooks/ -name '*Colab.ipynb' ! \( -path '*.ipynb_checkpoints*' \) -exec jupyter nbconvert \{} --to html --TagRemovePreprocessor.enabled=True --TagRemovePreprocessor.remove_cell_tags 'hide-cell' --TagRemovePreprocessor.remove_input_tags 'hide-input'  --TagRemovePreprocessor.remove_output_tags-cell 'hide-output' --output-dir build-html/ \;
