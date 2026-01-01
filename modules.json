@@ -1,0 +1,83 @@
+{
+  "modules": [
+    {
+      "title": "📚 Course Information",
+      "items": [
+        {
+          "type": "page",
+          "id": "welcome_TEMPLATE",
+          "indent": 0
+        }
+      ]
+    },
+    {
+        "title": "Python",
+        "items": [
+          {"type": "page", "id": "Python_1 Colab", "indent": 0 },
+          {"type": "page", "id": "Python_2 Colab", "indent": 0 },
+          {"type": "page", "id": "01-Python_3 Colab", "indent": 0 }
+        ]
+    },
+    {
+        "title": "Linear Models",
+        "items": [
+          {"type": "page", "id": "00-LinearModels Colab", "indent": 0 },
+          {"type": "page", "id": "02-PlaneFitProblem Colab", "indent": 0 },
+          {"type": "page", "id": "40-Perceptron3 Colab", "indent": 0 }
+        ]
+    },
+    {
+        "title": "Gradient Descent and SGD",
+        "items": [
+          {"type": "page", "id": "ProbabilisticPerspective Colab", "indent": 0 },
+          {"type": "page", "id": "10-ContinuousOptimization Colab", "indent": 0 },
+          {"type": "page", "id": "20-Hessians Colab", "indent": 0 },
+          {"type": "page", "id": "30-VisEigenVectors Colab", "indent": 0 }
+        ]
+    },
+    {
+        "title": "Shallow Networks",
+        "items": [
+          {"type": "page", "id": "MLP Colab", "indent": 0 },
+          {"type": "page", "id": "NumpyTutorial-Pytorched Colab", "indent": 0 },
+          {"type": "page", "id": "MLP Using Pytorch Colab", "indent": 0 },
+          {"type": "page", "id": "UDLBook_Shallow Colab", "indent": 0 },
+          {"type": "page", "id": "DataModelsAndLearning Colab", "indent": 0 },
+          {"type": "page", "id": "demo Colab", "indent": 0 },
+          {"type": "page", "id": "generate Colab", "indent": 0 },
+          {"type": "page", "id": "Midterm1-S24 Colab", "indent": 0 },
+          {"type": "page", "id": "Midterm 2 Review Colab", "indent": 0 }
+        ]
+    },
+    {
+      "title": "Autograd",
+      "items": [
+          {"type": "page", "id": "Autograd Colab", "indent": 0 },
+          {"type": "page", "id": "AutogradNumpy Colab", "indent": 0 },
+          {"type": "page", "id": "microtorch Colab", "indent": 0 },
+          {"type": "page", "id": "microtorch_mlp Colab", "indent": 0 },
+          {"type": "page", "id": "VanishingAndExplodingGradients Colab", "indent": 0 }
+      ]
+    },
+    {
+      "title": "Architectures",
+      "items": [
+          {"type": "page", "id": "CNN-0411 Colab", "indent": 0 },
+          {"type": "page", "id": "CNN Colab", "indent": 0 },
+          {"type": "page", "id": "conv_vjp Colab", "indent": 0 },
+          {"type": "page", "id": "transformer_sizing Colab", "indent": 0 }
+      ]
+    },
+    {
+      "title": "Misc",
+      "items": [
+          {"type": "page", "id": "Practice Problems 20240222 Colab", "indent": 0 },
+          {"type": "page", "id": "Practice Problems Bank Colab", "indent": 0 },
+          {"type": "page", "id": "Practice Problems Colab", "indent": 0 },
+          {"type": "page", "id": "Project scope and instructions Colab", "indent": 0 },
+          {"type": "page", "id": "review Colab", "indent": 0 },
+          {"type": "page", "id": "scaling_laws Colab", "indent": 0 }
+      ]
+    }
+  ]
+}
