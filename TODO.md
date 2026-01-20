@@ -163,33 +163,33 @@
 
 ## 11-regularization-resnets
 
-**Notebooks**:
-- [ ] Create Regularization & ResNets notebooks (currently only PDFs)
+**Notebooks**: ✓ Complete
+- ResNets.ipynb (residual networks, BasicBlock, BottleneckBlock, He init, CIFAR-10 training)
 
 **Quiz**:
 - [ ] Regularization and ResNets quiz
 
-**Videos**:
-- [ ] Overfitting and regularization
-- [ ] Dropout
-- [ ] Batch normalization
-- [ ] ResNet and skip connections
+**Videos**: ✓ Scripts Complete
+- [x] Overfitting and regularization (video-01-overfitting-regularization.md)
+- [x] Dropout (video-02-dropout.md)
+- [x] Batch normalization (video-03-batch-normalization.md)
+- [x] ResNet and skip connections (video-04-resnets-skip-connections.md)
 
 ---
 
 ## 12-transformers
 
-**Notebooks**:
-- [ ] Create Transformers implementation notebook (currently only reference PDF)
+**Notebooks**: ✓ Complete
+- Transformers.ipynb (self-attention, multi-head attention, positional encoding, MiniGPT, Shakespeare training)
 
 **Quiz**:
 - [ ] Transformers quiz
 
-**Videos**:
-- [ ] Self-attention mechanism
-- [ ] Multi-head attention
-- [ ] Transformer encoder/decoder architecture
-- [ ] Positional encoding
+**Videos**: ✓ Scripts Complete
+- [x] Self-attention mechanism (video-01-self-attention.md)
+- [x] Multi-head attention (video-02-multi-head-attention.md)
+- [x] Transformer encoder/decoder architecture (video-03-transformer-architecture.md)
+- [x] Positional encoding (video-04-positional-encoding.md)
 
 ---
 
