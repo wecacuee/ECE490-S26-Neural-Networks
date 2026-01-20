@@ -11,9 +11,9 @@
 
 **Notebooks**: ✓ Complete
 
-**Videos**:
-- [ ] Course overview and expectations
-- [ ] Prerequisites review
+**Videos**: ✓ Scripts Complete
+- [x] Course overview and expectations (video-01-course-overview.md)
+- [x] Prerequisites review (video-02-prerequisites-review.md)
 
 ---
 
