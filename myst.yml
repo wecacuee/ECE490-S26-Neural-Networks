@@ -6,7 +6,7 @@ project:
   authors: 
     - name: Vikas Dhiman
   github:
-    wecacuee/ECE490-F25-Neural-Networks
+    wecacuee/ECE490-S26-Neural-Networks
   bibliography:
     - references.bib
   exports:

@@ -42,7 +42,7 @@ Students are expected to work on their own computer / laptop. Programming assign
 Dr. Vikas Dhiman, Rm 279, 5708 Barrows Hall,  Email: [vikas.dhiman@maine.edu](mailto:vikas.dhiman@maine.edu) ,   
 Office hours will be conducted in-person or on Zoom: [https://maine.zoom.us/my/vikas.dhiman](https://maine.zoom.us/my/vikas.dhiman)   
 **Weekly Code Jam sessions: 3:30-4:30 pm on Fridays**  
-Course website: [vikasdhiman.info/ECE490-F25-Neural-Networks](https://vikasdhiman.info/ECE490-F25-Neural-Networks)
+Course website: [vikasdhiman.info/ECE490-S26-Neural-Networks](https://vikasdhiman.info/ECE490-S26-Neural-Networks)
 
 ## **Instructional Materials and Methods** 
 
@@ -104,36 +104,36 @@ The graduate students will be asked to review a recent neural network paper of t
 
 | Date | Topic | Key concepts | Assessment |
 | ----- | ----- | ----- | ----- |
-| 01/20 | [Introduction to Neural Networks](https://vikasdhiman.info/ECE490-F25-Neural-Networks/notebooks/intro/what-to-expect/) |  | [HW0](https://vikasdhiman.info/ECE490-F25-Neural-Networks/notebooks/intro/prereq-hw/) |
-| 01/22 | [Running Jupyter on PSC Cluster](https://vikasdhiman.info/ECE490-F25-Neural-Networks/tutorials/acg-slurm-jupyter/) |  |  |
-| 01/27 | [Introduction to Python 1.ipynb](https://vikasdhiman.info/ECE490-F25-Neural-Networks/notebooks/py-intro/python-1/) |  |  |
-| 01/29 | [High level tour of Neural Networks](https://vikasdhiman.info/ECE490-F25-Neural-Networks/tutorials/tip-of-the-iceberg/) |  | Python quiz |
-| 02/03 | [Linear Algebra Review.pdf](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/02-linear-models/exports/20250916-linear-models.pdf.pdf) |  | Discussion |
-| 02/05 | [Linear Regression](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/02-linear-models/exports/20250918-linear-models.pdf.pdf.pdf) |  | HW2 |
-| 02/10 | [Linear Regression](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/02-linear-models/exports/20250923-linear-models.pdf.pdf.pdf) |  |  |
-| 02/12 | [Continuous Optimization](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/02-linear-models/exports/20250925-cont-opt.pdf.pdf) |  | Linear Algebra Quiz |
-| 02/17 | [Perceptron3](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/02-linear-models/exports/20250930-40-perceptron.pdf.pdf) |  |  |
-| 02/19 | [Probabilistic Perspective](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/022-prob/2025-10-02-SGD.pdf) |  | [HW3](https://colab.research.google.com/github/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/02-linear-models/exports/40-Perceptron3%20Colab.ipynb) |
-| 02/24 | [Probabilistic Perspective](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/022-prob/exports/2025-10-07-ProbabilisticPerspective.pdf.pdf) |  |  |
+| 01/20 | [Introduction to Neural Networks](https://vikasdhiman.info/ECE490-S26-Neural-Networks/notebooks/intro/what-to-expect/) |  | [HW0](https://vikasdhiman.info/ECE490-S26-Neural-Networks/notebooks/intro/prereq-hw/) |
+| 01/22 | [Running Jupyter on PSC Cluster](https://vikasdhiman.info/ECE490-S26-Neural-Networks/tutorials/acg-slurm-jupyter/) |  |  |
+| 01/27 | [Introduction to Python 1.ipynb](https://vikasdhiman.info/ECE490-S26-Neural-Networks/notebooks/py-intro/python-1/) |  |  |
+| 01/29 | [High level tour of Neural Networks](https://vikasdhiman.info/ECE490-S26-Neural-Networks/tutorials/tip-of-the-iceberg/) |  | Python quiz |
+| 02/03 | [Linear Algebra Review.pdf](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/02-linear-models/exports/20250916-linear-models.pdf.pdf) |  | Discussion |
+| 02/05 | [Linear Regression](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/02-linear-models/exports/20250918-linear-models.pdf.pdf.pdf) |  | HW2 |
+| 02/10 | [Linear Regression](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/02-linear-models/exports/20250923-linear-models.pdf.pdf.pdf) |  |  |
+| 02/12 | [Continuous Optimization](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/02-linear-models/exports/20250925-cont-opt.pdf.pdf) |  | Linear Algebra Quiz |
+| 02/17 | [Perceptron3](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/02-linear-models/exports/20250930-40-perceptron.pdf.pdf) |  |  |
+| 02/19 | [Probabilistic Perspective](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/022-prob/2025-10-02-SGD.pdf) |  | [HW3](https://colab.research.google.com/github/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/02-linear-models/exports/40-Perceptron3%20Colab.ipynb) |
+| 02/24 | [Probabilistic Perspective](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/022-prob/exports/2025-10-07-ProbabilisticPerspective.pdf.pdf) |  |  |
 | 02/26 | Midterm 1 |  |  |
 | 03/03 | Fall Break: no class |  |  |
 | 03/05 | Midterm Solution |  | Discussion |
-| 03/10 | [Optimization algorithms](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/06-pytorch/20251021-UDLBook-Prince-p93-104.pdf.pdf) |  | Optimization basics |
-| 03/12 | [MLP.pdf.pdf](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/05-mlp/2025-10-23-MLP.pdf.pdf) |  |  |
-| 03/17 | [CrossEntropyLoss-WeightDecay.pdf](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/06-pytorch/exports/2025-10-28-CrossEntropyLoss-WeightDecay.pdf) |  | MLP quiz |
+| 03/10 | [Optimization algorithms](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/06-pytorch/20251021-UDLBook-Prince-p93-104.pdf.pdf) |  | Optimization basics |
+| 03/12 | [MLP.pdf.pdf](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/05-mlp/2025-10-23-MLP.pdf.pdf) |  |  |
+| 03/17 | [CrossEntropyLoss-WeightDecay.pdf](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/06-pytorch/exports/2025-10-28-CrossEntropyLoss-WeightDecay.pdf) |  | MLP quiz |
 | 03/19 | No class |  |  |
-| 03/24 | [Autograd.pdf](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/03-autograd/Autograd.pdf.pdf) |  | Discussion |
+| 03/24 | [Autograd.pdf](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/03-autograd/Autograd.pdf.pdf) |  | Discussion |
 | 03/26 | Midterm 2 |  |  |
 | 03/31 | Veterans Day: no class |  |  |
-| 04/02 | [Autograd.pdf](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/03-autograd/2025-11-13-Autograd.pdf.pdf) |  |  |
-| 04/07 | [Autograd.pdf](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/03-autograd/2025-11-18-Autograd.pdf.pdf) |  |  |
-| 04/09 | [AutogradNumpy.pdf](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/03-autograd/2025-11-20-AutogradNumpy.pdf.pdf) |  |  |
-| 04/14 | [AutogradNumpy.pdf](https://github.com/wecacuee/ECE490-F25-Neural-Networks/blob/master/notebooks/03-autograd/2025-11-25-AutogradNumpy.pdf.pdf) |  | Autograd quiz |
+| 04/02 | [Autograd.pdf](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/03-autograd/2025-11-13-Autograd.pdf.pdf) |  |  |
+| 04/07 | [Autograd.pdf](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/03-autograd/2025-11-18-Autograd.pdf.pdf) |  |  |
+| 04/09 | [AutogradNumpy.pdf](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/03-autograd/2025-11-20-AutogradNumpy.pdf.pdf) |  |  |
+| 04/14 | [AutogradNumpy.pdf](https://github.com/wecacuee/ECE490-S26-Neural-Networks/blob/master/notebooks/03-autograd/2025-11-25-AutogradNumpy.pdf.pdf) |  | Autograd quiz |
 | 04/16 | Thanks giving: no class |  |  |
 | 04/21 | Snow day: no class |  |  |
 | 04/23 | Architectures |  | Discussion |
 | 04/28 | Presentations |  |  |
-| 04/30 | Presentations |  | [Review](https://vikasdhiman.info/ECE490-F25-Neural-Networks/notebooks/review/review/) |
+| 04/30 | Presentations |  | [Review](https://vikasdhiman.info/ECE490-S26-Neural-Networks/notebooks/review/review/) |
 
 ## **Course Policies** 
 
