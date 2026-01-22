@@ -67,7 +67,7 @@ site:
   options:
     logo: logo.svg
     folders: true
-  template: article-theme
+  template: book-theme
 # # Force re-execution of notebooks on each build.
 # # See https://jupyterbook.org/content/execute.html
 # execute:
