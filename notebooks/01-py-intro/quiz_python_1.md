@@ -107,7 +107,7 @@ d) `<class 'number'>`
 
 Title: Set Properties
 Points: 1
-14. In Python, which data structure is immutable and ensures uniqueness of elements?
+14. In Python, which data structure is mutable and ensures uniqueness of elements?
 a) tuple
 b) list
 *c) set
